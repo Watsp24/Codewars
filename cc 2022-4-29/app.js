@@ -19,10 +19,10 @@ function countPositivesSumNegatives(input) {
     
     for (var i=0, l=input.length; i<l; ++i)
     {
-      if (input[i] > 0)
+      if (input[ i ] > 0)
         count++;
       else
-        sum += input[i];
+        sum += input[ i ];
     }
     
     return [count, sum];
