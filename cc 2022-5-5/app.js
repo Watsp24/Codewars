@@ -1,10 +1,5 @@
-// Bob needs a fast way to calculate the volume of a cuboid with three values: 
-//length, width and the height of the cuboid. Write a function to help Bob with this calculation.
-
-class Kata {
-    static getVolumeOfCuboid(length, width, height) {
-      // your code here 
-      let getVolumeOfCuboid = lengh * width * height
-      return length * width * height;
-    }
+//Complete the function which converts a binary number (given as a string) to a decimal number.
+function binToDec(bin){
+    // 
+    return parseInt(bin,2)
   }
