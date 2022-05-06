@@ -14,7 +14,7 @@
 function mergeArrays(arr1, arr2) {
     let unique = [];
     arr1.concat(arr2).forEach(el => !unique.includes(el) ? unique.push(el) : 0);
-        return unique.sort( (a,b) => a - b)
+        return unique.sort( (a,b) => a - b);
     } 
     
 
