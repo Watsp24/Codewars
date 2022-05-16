@@ -13,7 +13,7 @@ function makeNegative(num) {
     // Code
     return -Math.abs(num);
   }
-makeNegative(13)
+makeNegative(15)
 
   //parameter is num
   //return is a negative number
