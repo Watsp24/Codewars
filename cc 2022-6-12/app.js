@@ -10,7 +10,7 @@
 // 1601 --> 17
 // 2000 --> 20
 
-function century(year) {
+function century( year ) {
     // Finish this :)
 //     var year = century ;
     return Math.ceil(year/ 100);
