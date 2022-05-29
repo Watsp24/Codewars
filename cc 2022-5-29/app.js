@@ -6,7 +6,7 @@
 // 123 --> "123"
 // 999 --> "999"
 
-function numberToString( num ) {
+function numberToString(numb) {
     // Return a string of the number here!
-    return num.toString()
+    return numb.toString()
   }
