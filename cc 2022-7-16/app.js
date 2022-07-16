@@ -13,8 +13,39 @@
 
 
 function rentalCarCost(d) {
+
+let dayRate = 40;
+var total;
+
+   if(d >= 7){
+       total = (dayRate * d) - 50;
+     
+   }else if(d >= 3){
+       total = (dayRate * d) - 20;
+     
+   }else
+       total = (dayRate *d);
+       
+       return total;
+}
+ 
+
+
+
     // Your solution here
     // $40 a day for car
     // 7 days or more $50 dollar discount
     // 3 days or more $20 dollar discount
-  }
+
+//     let dayRate = 40;
+//     var total;
+  
+//        if(day >= 7){
+//            total = (dayRate * d) - 50;
+//        }else if(day >= 3){
+//            total = (dayRate * d) - 20;
+//        }else(day < 3)
+//            total = (dayRate *d);
+           
+//            return total;
+//    }
