@@ -18,15 +18,15 @@
 //returns sum of points
 //example 
 
-  function points(games) {
-    var sum=0;
+function points(games) {
+    var total=0;
     for (var i=0; i<games.length; ++i)
     {
       if (games[i][0]>games[i][2])
-        sum+=3;
+        total+=3;
       if (games[i][0]==games[i][2])
-        sum+=1;
+        total+=1;
     }
-    return sum;
+    return total;
   }
 
