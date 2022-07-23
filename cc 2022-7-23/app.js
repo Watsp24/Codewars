@@ -1,20 +1,12 @@
-// DESCRIPTION:
-// write me a function stringy that takes a size and returns a string of alternating '1s' and '0s'.
+// Create a function that gives a personalized greeting. This function takes two parameters: name and owner.
 
-// the string should start with a 1.
+// Use conditionals to return the proper message:
 
-// a string with size 6 should return :'101010'.
+// case	return
+// name equals owner	'Hello boss'
+// otherwise	'Hello guest'
 
-// with size 4 should return : '1010'.
-
-// with size 12 should return : '101010101010'.
-
-// The size will always be positive and will only use whole numbers.
-
-
-//Prep Parameters Return Example Psuedo
-
-
-function stringy(size) {
-    // your code here   
-  }
+function greet (name, owner) {
+  // Add code here
+  return name === owner ? 'Hello boss' :  'Hello guest';
+}
