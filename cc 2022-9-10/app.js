@@ -9,12 +9,26 @@
 
 
 //Prep Parameters Return Example Psuedo
+// parameters start is the number to begin with, count is the amount of digits
+// return start number and sequential numbers following the count
+// example - Array.range(0, 3) returns [0, 1, 2]
 
 
-Array.range = function(start, count) {
-    return [];
+  Array.range = function(start, count) {
+    var range = [], i = start;
+    
+    while( i < start+count ){
+      range.push(i);
+      i++;
+    }
+    
+    return range;
   }
   
   Array.prototype.sum = function() {
-    return 0;
+    var sum = 0; arr = this.slice();
+    while( arr.length > 0 ){
+      sum += arr.pop();
+    }
+    return sum;
   }
