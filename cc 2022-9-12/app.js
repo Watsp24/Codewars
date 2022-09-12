@@ -17,7 +17,7 @@
 
 function arrAdder(arr) {
     var holder= '';
-    for (var i = 0; i < arr[0].length; i++){
+    for(var i = 0; i < arr[0].length; i++){
         for (var j = 0; j < arr.length; j++)
         holder +=arr[j][i];
         if (i!=arr[0].length-1)
