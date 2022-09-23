@@ -28,3 +28,15 @@ function arrayMadness(a, b) {
     
     
   }
+
+
+  function arrayMadness(a, b) {
+    // Ready, get set, GO!!!
+
+return  a.map((a) => a ** 2).reduce((sum, current) => sum + current, 0) >
+  b.map((b) => b ** 3).reduce((sum, current) => sum + current, 0);
+
+    
+    
+  }
+
