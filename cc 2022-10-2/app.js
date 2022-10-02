@@ -15,6 +15,6 @@
 //return - array filled with string
 //example ['codewars']
 
-var websites = [];
+
 
 websites.push('codewars');
