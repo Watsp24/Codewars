@@ -8,6 +8,9 @@
 // You must output a string containing the two strings with the word ```' are '```
 
 //Prep Parameters Return Example Psuedo
+//parameters object and feature strings
+//return combined template literal or concatonated string with are in the middle
+//example "objects are features"
 
 
 var TempleStrings = function(obj, feature) {

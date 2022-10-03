@@ -15,6 +15,8 @@ DESCRIPTION:
 //Return  first number dictating the multiple, second number the amount of times
 //example provided
 
+//Prep Parameters Return Example Psuedo
+
 
 function countBy(x, n) {
     let z = [];

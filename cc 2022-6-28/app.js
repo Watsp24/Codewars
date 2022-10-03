@@ -2,8 +2,14 @@
 
 // Can you help her?
 
+//Prep  // Parameters Return Example Psuedo Code
+
+
 function greet(name){
-    return "Hello, " + name + "!";
-    if(name === "Johnny")
-      return "Hello, my love!";
+  
+    if(name === "Johnny"){
+  return "Hello, my love!";
+    
   }
+    return "Hello, " + name + "!"
+}
