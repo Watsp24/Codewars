@@ -11,5 +11,5 @@
 
 
 function sumMix(x){
-    return NUmber(x.reduce((sum, current) => +sum + +current),0);
+    return Number(x.reduce((sum, current) => +sum + +current),0);
 }
