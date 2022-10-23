@@ -2,5 +2,5 @@
 
 
 function square(n) {
-return n**
+return n*n;
 }
