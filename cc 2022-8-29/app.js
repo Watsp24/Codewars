@@ -23,5 +23,5 @@ Array.prototype.filter = function (func) {
     return result;
   }
 
-  
+  return this.reduce((pre, val) => fn(val) ? [...pre, val] : pre, []);
   
