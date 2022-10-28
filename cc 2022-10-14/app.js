@@ -18,10 +18,9 @@ function addLength(str) {
     //start-here
     let answer = [];
 
-    if (str){
-        return answer.push((str)(str.length));
-    }
+        return str.split(' ').map( word => word + ' ' + word.length);
+
+       
 
     }
-    
 
