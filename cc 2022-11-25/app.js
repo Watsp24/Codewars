@@ -19,7 +19,7 @@
 
 // Print "Hello World!" to the screen
 class Solution{
-    static main(){
+    static  main(){
          console.log("Hello World!");
      }
  }
