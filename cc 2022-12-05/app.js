@@ -11,7 +11,7 @@ function count (string) {
      //create obj
      //loop-> check val exist ? val++ : val -1
      let countObj = {}
-     for(const c of str){
+     for(const c of string){
         if(countObj[c] ){
             countObj[c]++
         }else{
