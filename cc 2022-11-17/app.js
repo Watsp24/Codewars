@@ -10,7 +10,7 @@
 
 
 
-function averageLengthRepeat() { 
+function averageLengthRepeat(arr) { 
     // get avg length -> rounded
     const avgLength = Math.round(arr.join('').length / arr.length)
     //create new arr using each letter the avglength amount
