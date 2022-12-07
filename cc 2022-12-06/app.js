@@ -20,9 +20,20 @@
 
 
 //Prep Parameters Return Example Psuedo
+//parameters - 3 integers
+//return true or false if possible to form pythagorean triple
+// [5, 3, 4] : it is possible to form a Pythagorean Triple using these 3 integers: 32 + 42 = 52
 
 
 
 function isPythagoreanTriple(integers) {
     // Good luck friends!
+    [a,b,c] = integers.sort((a,b)=> a-b);
+    if(a**2 + b**2 == c**2 ){
+        return true;
+    }else{
+        return false;
+    }
   }
+
+//    return (a**2 + b**2 = c**2) ? true : false
