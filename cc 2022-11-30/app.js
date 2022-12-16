@@ -13,5 +13,5 @@
 
 function reoveDdupes(arr) {
     //map -> word - split. - filter - join
-    return arr.map( word => word.split('').filter(1,l,a) => ! = A[i-1].join(''))
+    return arr.map( word => word.split('').filter(1,l,a) => ! === A[i-1].join(''))
     };
