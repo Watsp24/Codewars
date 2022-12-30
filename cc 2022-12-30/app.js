@@ -21,5 +21,5 @@ function mango(quantity, price){
           sum += price
           }
       }
-      return totalPrice
+      return  totalPrice
     }
