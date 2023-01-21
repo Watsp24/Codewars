@@ -16,6 +16,6 @@
 
 
 function dutyFree(normPrice, discount, hol){
-    let evenPrice = normPrice * (discount/100);
+    let evenPrice = normPrice * (discount/100)
     return Math.floor(hol/evenPrice);
 }
