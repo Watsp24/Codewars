@@ -4,6 +4,6 @@
 
 
 function include(arr, item){
-    // ...
+    // ...must be incuded in array to produce true.
     return arr.includes(item);
   }
