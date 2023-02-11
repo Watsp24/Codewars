@@ -13,5 +13,5 @@
 const num = Number(prompt("Enter the number of carousel turns"));
 
 for(i = 1; i <=num; i++){
-    console.log(i)
+     console.log(i)
 }
