@@ -17,7 +17,7 @@ function sum(array){
 
 
 function range(start,end, step){
-    for(let i = 0; i < range.length; i++ ){
+    for(let i = 0; i <= range.length; i++ ){
         let all = range[i];
     }
     return (range);
