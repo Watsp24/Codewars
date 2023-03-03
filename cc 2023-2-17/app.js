@@ -4,6 +4,7 @@
 
 const numb = prompt('Enter a number for multiplication table')
 
+
 for(i=1;i<=numb;i++){
     console.log(numb * i)
 }
