@@ -1,19 +1,39 @@
-// Calculator
-// Complete the following program so that it offers the four basic arithmetical operations: addition, subtraction, multiplication and division. You can use either a function declaration or a function expression.
+// Your Task
+// Given an array of Boolean values and a logical operator, return a Boolean result based on sequentially applying the operator to the values in the array.
 
-// TODO: complete program
+// Examples
+// booleans = [True, True, False], operator = "AND"
+// True AND True -> True
+// True AND False -> False
+// return False
+// booleans = [True, True, False], operator = "OR"
+// True OR True -> True
+// True OR False -> True
+// return True
+// booleans = [True, True, False], operator = "XOR"
+// True XOR True -> False
+// False XOR False -> False
+// return False
+// Input
+// an array of Boolean values (1 <= array_length <= 50)
+// a string specifying a logical operator: "AND", "OR", "XOR"
+// Output
+// A Boolean value (True or False).
 
-const calculate = (a,b){
-    // let a = 4 + 6;
-    // b = 4 - 6;
-    // c = 2 * 0;
-    // d = 12 / 0;
+//Prep Parameters Return Example Psuedo
+//parameters - array of boolean values
+//return - true or false
+//example - 
 
 
-}
 
-
-console.log(calculate(4, "+", 6));  // Must show 10
-console.log(calculate(4, "-", 6));  // Must show -2
-console.log(calculate(2, "*", 0));  // Must show 0
-console.log(calculate(12, "/", 0)); // Must show Infinity
+function logicalCalc(array, op){
+  
+    const operationList = {
+    AND: (a, b) => a && b,
+    OR: (a, b) => a || b,
+    XOR: (a, b) => a !== b,
+    }
+    
+    return array.reduce(operationList[op])
+    }
