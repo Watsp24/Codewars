@@ -22,5 +22,9 @@
 
 
 var cubeChecker = function(volume, side){
-    return false;
-  };
+  
+  return side > 0  ? volume === side * 3 : false;
+
+
+  
+  }
