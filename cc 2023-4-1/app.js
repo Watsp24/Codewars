@@ -7,8 +7,8 @@
 //return - comparison of numbers
 //example - a:9 is greater than b:5
 
-const numbA = Number(prompt("enter in number a"));
-const numbB = Number(prompt("enter in number a"));
+const numbA = Number(prompt("enter your first Number"));
+const numbB = Number(prompt("enter your second Number"));
 
 if(numbA === numbB){
     console.log(`${numbA} is equal to ${numbB}`);
