@@ -8,9 +8,12 @@
 
 
 function trueOrFalse(val){
-    if (val == false){
-        return 'false'; 
+    if (val){
+        return 'true'; 
     }else {
-        return 'true';
+        return 'false';
     }    
   }
+
+
+//   return val ? true : false;  
