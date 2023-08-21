@@ -10,11 +10,19 @@
 //prep parameters result example pseudocode
 //parameters given name and price per letter
 //return price to run the ad with name given
-//example 
+//example Jeong-Ho Aristotelis, ad would cost £600. 20 leters * 30 = 600 
 
 
 
 
 function billboard(name, price = 30){
+    
+   let adPrice = 0
 
+
+    for(i = 0; i < name.length;i++){
+        adPrice += price; 
+    }
+    
+    return adPrice;
 } 
