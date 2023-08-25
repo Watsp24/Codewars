@@ -32,4 +32,4 @@ function distinct(a) {
   }
  
 
-//   return Array.from(new Set(a));
+//   return Array.from(new Set(array));
