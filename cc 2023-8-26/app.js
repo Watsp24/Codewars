@@ -11,9 +11,14 @@
 
 
 //prep parameters result example pseudocode
+//parameters short and long string
+//return short on the outside and long on the inside
+//example // ("22", "1") --> "1221"
 
+function solution(a, b){ 
+   
+    return a.length < b.length ? a + b + a : b + a + b 
+    
 
-function solution(a, b){
-    // your code here
-  }
-  
+}
+   
