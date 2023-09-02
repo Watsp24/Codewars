@@ -12,7 +12,7 @@
 
 
 
-function remove (string) {
+function remove (string)  {
     //coding and coding....
-    return '';  
+    return string.replaceAll(/\!/g, '') + '!';  
   }
