@@ -16,8 +16,9 @@
 
 function joinStrings(string1, string2){
     // code here
-    return string1 + ' ' + string2;
+    return `${string1} ${string2}`
  }
 
+ //const joinStrings = (a,b) => `${a} ${b}`
 
 
