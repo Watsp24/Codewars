@@ -12,12 +12,9 @@
 //parameter - 
 //result - s
 
-function aspectRatio(x,y){
 
-    //round math.ceil
-    //for every y, there is about  1.77 pixels in X.
-    function aspectRatio(x,y){
-        return [Math.ceil(16/9 * y),y]
-      }
+function aspectRatio(x,y){
+    return [Math.ceil(16/9 * y),y];
+
 }
 
