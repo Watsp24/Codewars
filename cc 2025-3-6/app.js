@@ -18,5 +18,5 @@ function getSize(width, height, depth){ß
    var vol = width * height * depth;
    var area = 2 * (width * height + width * depth + height * depth);
 
-    return [area, vol];
+    return [area, vol]; 
 }
